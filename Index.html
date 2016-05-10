@@ -4,48 +4,89 @@
 
 <head>
     <title>Jeff's Chicken</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
     <link rel="stylesheet" href="style.css"/>
+    <meta name="viewpoint" content="width-=device-width, initial-scale=1">
 </head>
 <body>
-<h1>
-    Jeff&rsquo;s Chicken &trade;
-</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>
+                Jeff&rsquo;s Chicken &trade;
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Welcome to the world&rsquo;s cheapest chicken in London
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="starters">
 
-<p
-        >Welcome to the world&rsquo;s cheapest chicken in London
-</p>
 
+                <h2>Starters</h2>
 
-<div id="starters">
+                <ol>
+                    <li>
+                        <a href="salad.html">Salad </a>
+                    </li>
 
-    <h2>Starters</h2>
+                    <li>
+                        <a href="beans.html"> Beans </a>
+                    </li>
 
-    <ol>
-        <li>
-            <a href="salad.html">Salad </a>
-            </li>
+                </ol>
+            </div>
+        </div>
 
-        <li>
-            <a href="beans.html"> Beans </a>
-        </li>
+        <div class="col-sm-6">
 
-    </ol>
+            <div id="mains">
+                <h2> Mains </h2>
+                <ol>
+                    <li>
+                        <a href="friedchicken.html">Fried Chicken Burger</a>
+                    </li>
+
+                    <li>
+                        <a href="frenchfries.html">French Fries </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Sign up to our awesome mailing list</h3>
+            <p>We'll only spam you lots</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Colonel Shanders">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="c.shanders@fkc.com">
+
+                </div>
+                <button type="submit" class="btn btn-primary">Cluck Me</button>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> I want spam
+                    </label>
+            </form>
+        </div>
+    </div>
 </div>
-<div id="mains">
-    <h2> Mains </h2>
-    <ol>
-    <li>
-        <a href="friedchicken.html">Fried Chicken Burger</a>
-    </li>
-
-    <li>
-        <a href="frenchfries.html">French Fries </a>
-    </li>
-
-
-    </ol></div>
-
-</ol>
 </body>
 </html>
 
